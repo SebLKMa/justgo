@@ -19,6 +19,12 @@ $ ./survey survey.db
 2020/07/13 03:03:52 Listening at 8080
 ```
 
+Mac:  
+```sh
+$ ./surveymac survey.db
+2020/07/13 03:03:52 Listening at 8080
+```
+
 Windows 10:  
 ```sh
 surveywin.exe survey.db
