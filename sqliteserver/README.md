@@ -28,6 +28,11 @@ surveywin.exe survey.db
 You can then access the survey form using your web browser:  
 ![](../media/survey.jpg)
 
+## Cross compiling for Mac OSX
+
+```sh
+GOOS=darwin GOARCH=amd64 go build -o surveymac survey.go
+```
 
 ## Cross compiling for Windows
 
