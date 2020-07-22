@@ -34,12 +34,6 @@ surveywin.exe survey.db
 You can then access the survey form using your web browser:  
 ![](../media/survey.jpg)
 
-## Cross compiling for Mac OSX
-
-```sh
-GOOS=darwin GOARCH=amd64 go build -o surveymac survey.go
-```
-
 ## Cross compiling for Windows
 
 Simply compiling for Windows will not do for sqlite3.  
@@ -64,5 +58,14 @@ sudo apt-get install gcc-mingw-w64-x86-64
 The build command need to switch the C and C++ to mingw accordingly:  
 ```sh
 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ GOOS=windows GOARCH=amd64 go build -o surveywin.exe survey.go
+```
+
+## Cross compiling for Mac OSX
+
+This is still ***TODO*** as there is currently no known solution for the use case of cross compiling sqlite3 from Linux to Mac OSX.  
+
+Below command settings will not be sufficient.  
+```sh
+GOOS=darwin GOARCH=amd64 go build -o surveymac survey.go
 ```
 
