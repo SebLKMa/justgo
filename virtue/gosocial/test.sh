@@ -7,7 +7,7 @@ curl --header "Content-Type: application/json" --request POST --data '{"Email": 
 curl --header "Content-Type: application/json" --request POST --data '{"Email": "wendy@bla.com"}' http://localhost:8282/addfriend
 curl --header "Content-Type: application/json" --request POST --data '{"Email": "can@bla.com"}' http://localhost:8282/addfriend
 curl --header "Content-Type: application/json" --request POST --data '{"Email": "gillian@bla.com"}' http://localhost:8282/addfriend
-curl --header "Content-Type: application/json" --request POST --data '{"Email": "gillia@bla.com"}' http://localhost:8282/addfriend
+curl --header "Content-Type: application/json" --request POST --data '{"Email": "dennis@bla.com"}' http://localhost:8282/addfriend
 curl --header "Content-Type: application/json" --request POST --data '{"Email": "sherry@bla.com"}' http://localhost:8282/addfriend
 
 echo User story 1b.
