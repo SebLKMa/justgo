@@ -71,6 +71,16 @@ func Traverse(g *graph.ItemGraph, srcNode *graph.Node, f func(*graph.Node)) {
 }
 
 // TraverseHops tracks the number of Hops from srcNode
+// To visualize, you can draw the graph connecctions.
+// During enqueue, below table can be calculated:
+// visited parent hops
+// --------------------
+//  A       nil    0
+//  D        A    A+1=1
+//  B        A    A+1=1
+//  C        A    A+1=1
+//  E        B    B+1=2
+//  F        E    E+1=3
 func TraverseHops(g *graph.ItemGraph, srcNode *graph.Node) (parents map[string]string, hops map[string]int) {
 	q := nodeQueue{items: []graph.Node{}}
 	n := srcNode
