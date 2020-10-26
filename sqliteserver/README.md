@@ -32,7 +32,7 @@ SSH to AWS, e.g. the free instance `ubuntu@ec2-46-137-199-71.ap-southeast-1.comp
 
 ```
 
-Then use Firefox browser, open `http://ec2-46-137-199-71.ap-southeast-1.compute.amazonaws.com:8080/survey`  
+With AWS instance's inbound traffic enabled for port 8080, you can then use Firefox browser, open `http://ec2-46-137-199-71.ap-southeast-1.compute.amazonaws.com:8080/survey`  
 
 
 ### Macbook binary
