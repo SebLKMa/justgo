@@ -13,19 +13,36 @@ For deployment:
 - the html files from `templates/*`  
 - the database file `survey.db`  
 
-Linux:  
+## Running the Application
+
+### Linux binary
 ```sh
 $ ./survey survey.db
 2020/07/13 03:03:52 Listening at 8080
 ```
 
-Mac:  
+### AWS ubuntu
+
+Run `./deployaws.sh`  
+
+SSH to AWS, e.g. the free instance `ubuntu@ec2-46-137-199-71.ap-southeast-1.compute.amazonaws.com`  
+```shubuntu@ip-172-31-15-63:~/staging/sqliteserver$ ./survey survey.db
+2020/10/26 05:53:39 Listening at 8080
+2020/10/26 05:56:26 Host: ec2-46-137-199-71.ap-southeast-1.compute.amazonaws.com:8080 Path: /survey
+
+```
+
+Then use Firefox browser, open `http://ec2-46-137-199-71.ap-southeast-1.compute.amazonaws.com:8080/survey`  
+
+
+### Macbook binary
+
 ```sh
 $ ./surveymac survey.db
 2020/07/13 03:03:52 Listening at 8080
 ```
 
-Windows 10:  
+### Windows 10 executable 
 ```sh
 surveywin.exe survey.db
 2020/07/13 19:05:26 Listening at 8080
