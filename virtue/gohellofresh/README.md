@@ -86,13 +86,10 @@ Generate a JSON file of the following format:
 }
 ```
 
-Review Criteria
+Unit Tests Criteria
 ---
 
-We expect that the assignment will not take more than 3 - 4 hours of work. In our judgement we rely on common sense
-and do not expect production ready code. We are rather instrested in your problem solving skills and command of the programming language that you chose.
-
-It worth mentioning that we will be testing your submission against different input data sets.
+Test your submission against different input data sets - valid and invalid data sets.  
 
 __General criteria from most important to less important__:
 
