@@ -1,0 +1,11 @@
+# minimal alpine allows a shell, e.g.:
+#   docker run --rm -it --entrypoint=/bin/sh hellofresh-hello-alpine
+FROM alpine:latest
+
+RUN mkdir /app
+WORKDIR /app
+COPY hello .
+# Not running the binary, just stay in shell
+#CMD ["/app/hello"]
+#CMD [ "/bin/sh" , "-c" , "cd /app && ./hello" ]
+CMD ["/bin/sh"]
