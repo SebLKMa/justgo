@@ -129,7 +129,7 @@ Using Firefox, open http://localhost:8080/
 
 We have registered a User "seb1", and have successfully created the user in AWS Cognito User Pool.  
 
-username: seb1
+username: seb1  
 password: seb1Seb!
 
 ![aws-cognito-username-seb1](../media/aws-cognito-username-seb1.png)  

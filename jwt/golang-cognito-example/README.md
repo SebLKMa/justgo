@@ -1,5 +1,7 @@
 # Golang AWS Cognito Register, Verify phone number, Login and Get User example
 
+This is a clone from https://github.com/br4in3x/golang-cognito-example  
+
 ## Just Show Me
 
 If you are just curious how things work all together, you can find this example working at https://golang-cognito-example.herokuapp.com
