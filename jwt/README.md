@@ -36,15 +36,15 @@ Example, the AWS configuration and credential file in AWS hidden directory, has 
 ```sh
 iox@ubuntu:~$ cat .aws/configuration 
 [sebaws]
-aws_access_key_id = AKIA36VDI6T2WW3JTAH3
-aws_secret_access_key = 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
+aws_access_key_id = ...
+aws_secret_access_key = ...
 ```
 
 ```sh
 iox@ubuntu:~$ cat .aws/credentials 
 [sebaws]
-aws_access_key_id = AKIA36VDI6T2WW3JTAH3
-aws_secret_access_key = Xa1S0tlysMwe4f9XYYbOWBMM3zPZ5sMpGlf70NKv
+aws_access_key_id = ...
+aws_secret_access_key = ...
 ```
 
 Add to your .profile:
