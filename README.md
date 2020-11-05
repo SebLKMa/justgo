@@ -30,7 +30,7 @@ Follow the guidelines mentioned in:
 https://golang.org/doc/gopath_code.html
 
 ### GOPATH  
-The default GOOATH is $HOME/go on Unix.  
+The default GOPATH is $HOME/go on Unix.  
 If you are setting your GOPATH, follow the guidelines mentioned in above link as well.  
 
 ## Git
@@ -55,7 +55,7 @@ Enter your github email and name accordingly:
 	bare = false
 	logallrefupdates = true
 [remote "origin"]
-	url = https://github.com/SebLKMa/justgo.git
+	url = https://github.com/.../....git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [user]
 	email = <your email used in github>
@@ -66,20 +66,20 @@ Pull latest source codes from GitHub:
 ```sh
 $ git fetch
 Username for 'https://github.com': ...  
-Password for 'https://sebmacisco@github.com': ...
+Password for 'https://...@github.com': ...
 remote: Enumerating objects: 115, done.
 remote: Counting objects: 100% (115/115), done.
 remote: Compressing objects: 100% (85/85), done.
 remote: Total 115 (delta 17), reused 115 (delta 17), pack-reused 0
 Receiving objects: 100% (115/115), 1.75 MiB | 1.21 MiB/s, done.
 Resolving deltas: 100% (17/17), done.
-From https://github.com/sebmacisco/cisco-iox-python-h3d
+From https://github.com/...
  * [new branch]      master     -> origin/master
 
 $ git pull origin master
-Username for 'https://github.com': sebmacisco
-Password for 'https://sebmacisco@github.com': 
-From https://github.com/sebmacisco/cisco-iox-python-h3d
+Username for 'https://github.com': ...
+Password for 'https://...@github.com': ...
+From https://github.com/...
  * branch            master     -> FETCH_HEAD
 ```
 
