@@ -9,6 +9,7 @@ Install `git` if you have not already done so.
 sudo apt install git
 ```
 
+Most of the instructions in our READMEs apply to Linux, the operating system of choice to run and deploy open source applications.  
 Follow the instuctions to download and install Go for your specific operating system.  
 
 https://golang.org/doc/install
